@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api', (req, res) => {
-  res.json({ message: 'Hello World' });
+  res.json({ message: 'Hello World 2' });
 });
 
 let server;
